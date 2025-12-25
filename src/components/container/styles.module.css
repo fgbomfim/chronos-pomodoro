@@ -1,0 +1,12 @@
+.section {
+  max-width: 98rem;
+  margin: 0 auto;
+}
+
+.row {
+  max-width: auto;
+}
+
+.content {
+  margin: 3.2rem;
+}
