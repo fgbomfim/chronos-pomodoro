@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.menuLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--primary);
+  color: var(--text-over-primary);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.menuLink svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}

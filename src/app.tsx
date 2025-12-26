@@ -1,19 +1,20 @@
 import './styles/theme.css';
 import './styles/global.css';
 
-import { TimerIcon } from 'lucide-react';
 import { Container } from '@src/components/container';
-import { Heading } from '@src/components/heading';
+import { Logo } from '@src/components/logo';
+import { Menu } from '@src/components/menu';
 
 export function App() {
   return (
-    <Container>
-      <Heading>
-        Hello World!
-        <button>
-          <TimerIcon />
-        </button>
-      </Heading>
-    </Container>
+    <>
+      <Container>
+        <Logo />
+      </Container>
+
+      <Container>
+        <Menu />
+      </Container>
+    </>
   );
 }
