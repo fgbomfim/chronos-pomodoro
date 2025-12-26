@@ -1,0 +1,8 @@
+.anchor {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.anchor:hover {
+  filter: brightness(80%);
+}
