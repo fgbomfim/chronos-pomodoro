@@ -14,13 +14,7 @@
   gap: 0.5rem;
   font-size: 4.2rem;
   font-weight: 700;
-  text-decoration: none;
   color: var(--primary);
-  transition: all 0.1s ease-in-out;
-}
-
-.logoLink:hover {
-  filter: brightness(80%);
 }
 
 .logoLink svg {
